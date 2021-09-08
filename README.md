@@ -18,9 +18,9 @@ Första delen med rättigheter, filer, navigering osv finns som quiz i googlefor
 
 Läs: https://www.redhat.com/sysadmin/pipes-command-line-linux
 
-`|` (pipe) används för att skicka vidare output från ett verktyg till nästa. Skapa två olika textfiler med kontakter. 
+`|` (pipe) används för att skicka vidare output från ett verktyg till nästa. Skapa två olika textfiler med kontakter. Arbeta med `cat`, `sort` och `grep`.
 
-Arbeta med `cat` och `sort`.
+Exempelfiler
 
 ```
 $ cat contacts.txt
@@ -49,14 +49,15 @@ Nikolina Gustavsson
 Linn Forsberg
 ```
 
-Hur kan du:
-* sortera en lista?
-* spara den sorterade listan?
-* sortera på efternamn?
-* vända sorteringen?
-* slå ihop och sortera namnen från både contacts.txt och kontakter.txt
+### Övningar: pipes och operatorer
 
-Vad gör kommandot: `cat contacts.txt | sort | uniq` ?
+* Hur kan du sortera en lista?
+* Hur sparar du den sorterade listan?
+* Hur sorterar du på efternamn?
+* Hur kan du vända sorteringen?
+* Hur kan du slå ihop och sortera namnen från både contacts.txt och kontakter.txt
+* Hur kan du söka bland båda listorna?
+* Vad gör kommandot: `cat contacts.txt | sort | uniq` ?
 
 ---
 
@@ -68,6 +69,9 @@ Vad gör kommandot: `cat contacts.txt | sort | uniq` ?
 Tydlig guide, svår: https://www.howtogeek.com/435903/what-are-stdin-stdout-and-stderr-on-linux/
 
 ## Loggfiler
+
+* tail
+* head
 
 ## Brew
 
