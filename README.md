@@ -1,18 +1,20 @@
 # Att använda terminalen (för utveckling)
 
-Första delen med rättigheter, filer, navigering osv finns som quiz i googleforms
+Första delen med rättigheter, filer, navigering osv finns som quiz i googleforms.
 
+Todo:
 * alias
 * Variabler, tex: $PATH 
 
 ## Filsystemet
+Todo
 
 ## Navigering, filer och mappar
+Todo:
 * mv
 * du
 * file
 * find
-* grep
 
 ## Pipes + operatorer
 
@@ -59,14 +61,11 @@ Linn Forsberg
 * Hur kan du söka bland båda listorna?
 * Vad gör kommandot: `cat contacts.txt | sort | uniq` ?
 
----
-
-
-
-
-
 ### Standard streams: stdin / stdout / stederr
-Tydlig guide, svår: https://www.howtogeek.com/435903/what-are-stdin-stdout-and-stderr-on-linux/
+
+Output från terminalen 
+
+Läs: https://www.redhat.com/sysadmin/redirect-operators-bash och för att fördjupa kunskaperna: https://www.howtogeek.com/435903/what-are-stdin-stdout-and-stderr-on-linux/
 
 ## Loggfiler
 
