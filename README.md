@@ -1,9 +1,10 @@
 # Att använda terminalen (för utveckling)
 
-Första delen med rättigheter, filer, navigering osv finns som quiz i googleforms.
+Första delen med rättigheter, filer, navigering osv finns som quiz i googleforms. Todo: Flytta in det hit.
 
 Todo:
 * alias
+* ln - länkar - hårda och mjuka
 * Variabler, tex: $PATH 
 
 ## Filsystemet
@@ -57,6 +58,8 @@ Linn Forsberg
 
 ### Övningar: pipes och operatorer
 
+Se quiz 3 i Google forms. Tar upp ungefär följande:
+
 * Hur kan du sortera en lista?
 * Hur sparar du den sorterade listan?
 * Hur sorterar du på efternamn?
@@ -67,21 +70,27 @@ Linn Forsberg
 
 ### Standard streams: stdin / stdout / stederr
 
-Output från terminalen 
+När du skriver ett kommando som tex. `date` syns resultatet i något som heter `stdout`. För en dator är det nästan alltid att visa resultatet på skärmen. Eftersom Unix i många fall används utan skärm (tex en webbserver) vill man kanske att `stdout` ska synas i tex. en loggfil. Det vanliga sättet är använda "redirect operatorn" `>`. Testa i terminalen: `date > datum.txt` och kolla att data landade i filen med `cat datum.txt`.
+
+Inputdata eller `stdin` är för en arbetsdator normalt tangentbordet men med operatorn `<` går det att suga ut data från tex. en textfil. Prova (med exempelfilerna för kontaktlistan): `sort < contacts.txt`.
 
 Läs: https://www.redhat.com/sysadmin/redirect-operators-bash och för att fördjupa kunskaperna: https://www.howtogeek.com/435903/what-are-stdin-stdout-and-stderr-on-linux/
 
 ## Loggfiler
 
+Todo:
 * tail
 * head
 
 ## Brew
 
+Vanligaste pakethanteringssystemet (dvs. verktyg för att installera program) för MacOS. Se: https://brew.sh
+
 ## Rättigheter (i filsystemet)
 
+Bra men svår guide om rättigheter: https://help.ubuntu.com/community/FilePermissions
+
+Todo:
 * filrättigheter (ls -l / chmod)
 * användare - grupper (chown / chgrp)
-* root - sudo
-
-Bra men svår guide om rättigheter: https://help.ubuntu.com/community/FilePermissions 
+* root - sudo 
