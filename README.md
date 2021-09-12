@@ -94,3 +94,7 @@ Todo:
 * filrättigheter (ls -l / chmod)
 * användare - grupper (chown / chgrp)
 * root - sudo 
+
+## Shell-scripts
+
+https://www.shellscript.sh/
