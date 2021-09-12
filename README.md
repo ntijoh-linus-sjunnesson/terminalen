@@ -10,11 +10,15 @@ Todo:
 Todo
 
 ## Navigering, filer och mappar
+
+Läs: https://www.fosslinux.com/43292/linux-terminal-commands-to-try-for-a-beginner.htm 
+
 Todo:
 * mv
 * du
 * file
 * find
+* wc: https://www.fosslinux.com/45753/linux-wc-command-examples.htm
 
 ## Pipes + operatorer
 
