@@ -98,3 +98,10 @@ Todo:
 ## Shell-scripts
 
 https://www.shellscript.sh/
+
+## Trams :)
+
+```
+$ say "Hello world!"
+$ banner "Hello world!"
+```
