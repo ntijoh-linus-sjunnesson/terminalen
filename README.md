@@ -8,7 +8,16 @@ Todo:
 * Variabler, tex: $PATH 
 
 ## Filsystemet
-Todo
+
+Kortfattat:
+```
+/var/log - loggfiler
+/etc - inställningar + startup scripts
+/proc - hårdvaruinfo. om tex. cpu osv
+/dev - enheter
+/home - användarens hemmapp
+```
+För djupare förståelse läs: https://tldp.org/LDP/sag/html/dir-tree-overview.html 
 
 ## Navigering, filer och mappar
 
