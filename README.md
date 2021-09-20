@@ -15,7 +15,7 @@ Kortfattat:
 /etc - inställningar + startup scripts
 /proc - hårdvaruinfo. om tex. cpu osv
 /dev - enheter
-/home - användarens hemmapp
+/home - alla användares hemmappar
 ```
 För djupare förståelse läs: https://tldp.org/LDP/sag/html/dir-tree-overview.html 
 
