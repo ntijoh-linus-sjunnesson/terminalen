@@ -9,7 +9,7 @@ Todo:
 
 ## Filsystemet
 
-Kortfattat:
+En kortfattad beskrivning av Unix-filsystemet:
 ```
 /var/log - loggfiler
 /etc - inställningar + startup scripts
