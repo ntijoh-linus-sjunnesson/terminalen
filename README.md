@@ -28,8 +28,10 @@ För djupare förståelse läs: https://tldp.org/LDP/sag/html/dir-tree-overview.
 
 Läs: https://www.fosslinux.com/43292/linux-terminal-commands-to-try-for-a-beginner.htm 
 
-Todo:
-* mv
+### mv
+Kommandot mv flyttar (eller byter namn) en fil eller map. Exempel: $ mv fil.txt ~/Desktop/fil.txt
+
+## Todo
 * du
 * file
 * find
