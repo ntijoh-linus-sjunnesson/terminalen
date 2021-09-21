@@ -2,8 +2,13 @@
 
 Första delen med rättigheter, filer, navigering osv finns som quiz i googleforms. Todo: Flytta in det hit.
 
+Kommandot alias skapar en genväg till kommandon, med eller utan nycklar, för att t.ex. spara tid. Exempel.
+```
+$ alias lista="ls -lah
+$ lista
+```
+
 Todo:
-* alias
 * ln - länkar - hårda och mjuka
 * Variabler, tex: $PATH 
 
