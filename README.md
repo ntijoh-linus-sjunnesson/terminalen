@@ -2,8 +2,6 @@
 
 Första delen med rättigheter, filer, navigering osv finns som quiz i googleforms. 
 
-
-
 Kommandot alias skapar en genväg till kommandon, med eller utan nycklar, för att t.ex. spara tid. Exempel.
 kör i terminalen:
 ```
@@ -21,31 +19,31 @@ En kortfattad beskrivning av Unix-filsystemet:
 /dev - enheter
 /home - alla användares hemmappar
 ```
-För djupare förståelse läs: https://tldp.org/LDP/sag/html/dir-tree-overview.html 
+För djupare förståelse om filsystemet, läs: https://tldp.org/LDP/sag/html/dir-tree-overview.html 
 
 ## Navigering, filer och mappar
 
 Läs: https://www.fosslinux.com/43292/linux-terminal-commands-to-try-for-a-beginner.htm 
+För att tydligare förstå och lära dig använda simpla kommandon i terminalen.
+
+### Kommandon
+
+Testa i terminalen. Tips använd kommandot: man för att läsa manualsidan. tex ```man cd````.
 
 * cd: förflyttning genom mappar, används också för att gå till terminal start. Exempel: $ cd Desktop/  ~/Desktop 
 * mv: flyttar (eller byter namn) en fil eller map. Exempel: $ mv fil.txt ~/Desktop/fil.txt
 * clear: rensar terminalen.
 * controll + c = lämna filer, commands eller databaser, används oftast när man sitter fast.
-
-
-
-## testa själv i terminalen
-* du 
-* file 
-* find
-* wc
+* du: Räknar hur stor en fil eller mapp är
+* file: Kommandot tittar på en fil och försöker lista ut vilken sorts fil det är
+* find: Sök
+* wc: Word count
 
 Läs mer om dessa här
 * du: https://www.oreilly.com/library/view/macintosh-terminal-pocket/9781449328962/re31.html
 * file: https://en.wikipedia.org/wiki/File_(command)
 * find: https://linuxize.com/post/how-to-find-files-in-linux-using-the-command-line/
 * wc: https://www.fosslinux.com/45753/linux-wc-command-examples.htm
-
 
 ## Pipes + operatorer
 
@@ -62,8 +60,6 @@ Plug.Conn.put_session(conn, :correct_student_name, correct_student_name)
 |> redirect( "/game/run")
 `
 // den går i steg, från rad 1 till 2 och vidare till slutet på pipen.
-
-
 
 ### Övningar: pipes och operatorer
 
@@ -87,7 +83,9 @@ Läs: https://www.redhat.com/sysadmin/redirect-operators-bash och för att förd
 
 ## Loggfiler
 
-Kör i terminalen
+Loggfiler i Unix lagras i mappen ```/var/log```
+
+### Undersök i terminalen
 * tail
 * head
 
@@ -108,11 +106,12 @@ Kör i terminalen
 
 ## Shell-scripts
 
-https://www.shellscript.sh/
+Läs: https://www.shellscript.sh/
+För att förstå grunderna i shell programmering.
 
-# Trams :)
+# Exempel på olika sätt att ta fram text.
 
 ```
-$ say "Hello world!"
-$ banner "Hello world!"
+$ say "Hello world!" för att höra stringen.
+$ banner "Hello world!" för att printa ut stringen i hashes istället för text.
 ```
