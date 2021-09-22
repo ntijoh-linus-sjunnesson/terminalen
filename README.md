@@ -32,6 +32,7 @@ Läs: https://www.fosslinux.com/43292/linux-terminal-commands-to-try-for-a-begin
 Kommandot mv flyttar (eller byter namn) en fil eller map. Exempel: $ mv fil.txt ~/Desktop/fil.txt
 
 ## Todo
+Ta reda på vad kommandorna gör (tips använd man .. i ternminalen för att få upp manual)
 * du
 * file
 * find
@@ -94,7 +95,7 @@ Läs: https://www.redhat.com/sysadmin/redirect-operators-bash och för att förd
 
 ## Loggfiler
 
-Todo:
+Ta reda på vad kommandorna gör (tips använd man .. i ternminalen för att få upp manual)
 * tail
 * head
 
