@@ -117,9 +117,9 @@ Todo:
 Läs: https://www.shellscript.sh/
 För att förstå grunderna i shell programmering.
 
-# Trams :)
+# Exempel på olika sätt att ta fram text.
 
 ```
-$ say "Hello world!"
-$ banner "Hello world!"
+$ say "Hello world!" för att höra stringen.
+$ banner "Hello world!" för att printa ut stringen i hashes istället för text.
 ```
