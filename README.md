@@ -27,9 +27,10 @@ För djupare förståelse om filsystemet, läs: https://tldp.org/LDP/sag/html/di
 ## Navigering, filer och mappar
 
 Läs: https://www.fosslinux.com/43292/linux-terminal-commands-to-try-for-a-beginner.htm 
+För att tydligare förstå och lära dig använda simpla kommandon i terminalen.
 
 ### mv
-Kommandot mv flyttar (eller byter namn) en fil eller map. Exempel: $ mv fil.txt ~/Desktop/fil.txt
+Kommandot mv flyttar (eller byter namn på) en fil eller map. Exempel: $ mv fil.txt ~/Desktop/fil.txt
 
 ## Todo
 Ta reda på vad kommandorna gör (tips använd man .. i ternminalen för att få upp manual)
@@ -114,7 +115,8 @@ Todo:
 
 ## Shell-scripts
 
-https://www.shellscript.sh/
+Läs: https://www.shellscript.sh/
+För att förstå grunderna i shell programmering.
 
 # Trams :)
 
