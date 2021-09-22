@@ -49,17 +49,36 @@ Läs mer om dessa här
 
 Läs: https://www.redhat.com/sysadmin/pipes-command-line-linux
 
-`|` eller `|>` (pipe) används för att skicka vidare output från ett verktyg till nästa. Skapa två olika textfiler med kontakter. Arbeta med `cat`, `sort` och `grep`.
+`|` (pipe) används för att skicka vidare output från ett verktyg till nästa. Skapa två olika textfiler med kontakter. Arbeta med `cat`, `sort` och `grep`.
 
-Exempelfiler
-`
-Plug.Conn.put_session(conn, :correct_student_name, correct_student_name)
-|> Plug.Conn.put_session(:counter, counter + 1)
-|> Plug.Conn.put_session(:correct_guesses, "#{correct_guesses},#{correct_student_id}")
-|> Plug.Conn.put_session(:name_guessed, name_guessed)
-|> redirect( "/game/run")
-`
-// den går i steg, från rad 1 till 2 och vidare till slutet på pipen.
+Exempelmaterial:
+
+```
+$ cat contacts.txt
+
+Bob Jones
+Leslie Smith
+Dana David
+Susan Gee
+Leonard Schmidt
+Linda Gray
+Terry Jones
+Colin Doe
+Jenny Case
+Terry Jones
+```
+
+```
+$ cat kontakter.txt
+
+Jens Berggren
+Emil Bengtsson
+Johan Eriksson
+Lana Ek
+Pauline Jakobsson
+Nikolina Gustavsson
+Linn Forsberg
+```
 
 ### Övningar: pipes och operatorer
 
