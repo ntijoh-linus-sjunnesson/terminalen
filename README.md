@@ -1,16 +1,13 @@
 # Att använda terminalen (för utveckling)
 
-Första delen med rättigheter, filer, navigering osv finns som quiz i googleforms. Todo: Flytta in det hit.
+Första delen med rättigheter, filer, navigering osv finns som quiz i googleforms. 
 
 Kommandot alias skapar en genväg till kommandon, med eller utan nycklar, för att t.ex. spara tid. Exempel.
+kör i terminalen:
 ```
 $ alias lista="ls -lah
 $ lista
 ```
-
-Todo:
-* ln - länkar - hårda och mjuka
-* Variabler, tex: $PATH 
 
 ## Filsystemet
 
@@ -29,50 +26,40 @@ För djupare förståelse om filsystemet, läs: https://tldp.org/LDP/sag/html/di
 Läs: https://www.fosslinux.com/43292/linux-terminal-commands-to-try-for-a-beginner.htm 
 För att tydligare förstå och lära dig använda simpla kommandon i terminalen.
 
-### mv
-Kommandot mv flyttar (eller byter namn på) en fil eller map. Exempel: $ mv fil.txt ~/Desktop/fil.txt
+### Kommandon
 
-## Todo
-Ta reda på vad kommandorna gör (tips använd man .. i ternminalen för att få upp manual)
-* du
-* file
-* find
+Testa i terminalen. Tips använd kommandot: man för att läsa manualsidan. tex ```man cd````.
+
+* cd: förflyttning genom mappar, används också för att gå till terminal start. Exempel: $ cd Desktop/  ~/Desktop 
+* mv: flyttar (eller byter namn) en fil eller map. Exempel: $ mv fil.txt ~/Desktop/fil.txt
+* clear: rensar terminalen.
+* controll + c = lämna filer, commands eller databaser, används oftast när man sitter fast.
+* du: Räknar hur stor en fil eller mapp är
+* file: Kommandot tittar på en fil och försöker lista ut vilken sorts fil det är
+* find: Sök
+* wc: Word count
+
+Läs mer om dessa här
+* du: https://www.oreilly.com/library/view/macintosh-terminal-pocket/9781449328962/re31.html
+* file: https://en.wikipedia.org/wiki/File_(command)
+* find: https://linuxize.com/post/how-to-find-files-in-linux-using-the-command-line/
 * wc: https://www.fosslinux.com/45753/linux-wc-command-examples.htm
 
 ## Pipes + operatorer
 
 Läs: https://www.redhat.com/sysadmin/pipes-command-line-linux
 
-`|` (pipe) används för att skicka vidare output från ett verktyg till nästa. Skapa två olika textfiler med kontakter. Arbeta med `cat`, `sort` och `grep`.
+`|` eller `|>` (pipe) används för att skicka vidare output från ett verktyg till nästa. Skapa två olika textfiler med kontakter. Arbeta med `cat`, `sort` och `grep`.
 
 Exempelfiler
-
-```
-$ cat contacts.txt
-
-Bob Jones
-Leslie Smith
-Dana David
-Susan Gee
-Leonard Schmidt
-Linda Gray
-Terry Jones
-Colin Doe
-Jenny Case
-Terry Jones
-```
-
-```
-$ cat kontakter.txt
-
-Jens Berggren
-Emil Bengtsson
-Johan Eriksson
-Lana Ek
-Pauline Jakobsson
-Nikolina Gustavsson
-Linn Forsberg
-```
+`
+Plug.Conn.put_session(conn, :correct_student_name, correct_student_name)
+|> Plug.Conn.put_session(:counter, counter + 1)
+|> Plug.Conn.put_session(:correct_guesses, "#{correct_guesses},#{correct_student_id}")
+|> Plug.Conn.put_session(:name_guessed, name_guessed)
+|> redirect( "/game/run")
+`
+// den går i steg, från rad 1 till 2 och vidare till slutet på pipen.
 
 ### Övningar: pipes och operatorer
 
@@ -96,19 +83,23 @@ Läs: https://www.redhat.com/sysadmin/redirect-operators-bash och för att förd
 
 ## Loggfiler
 
-Ta reda på vad kommandorna gör (tips använd man .. i ternminalen för att få upp manual)
+Loggfiler i Unix lagras i mappen ```/var/log```
+
+### Undersök i terminalen
 * tail
 * head
 
 ## Brew
 
-Vanligaste pakethanteringssystemet (dvs. verktyg för att installera program) för MacOS. Se: https://brew.sh
+Vanligaste pakethanteringssystemet (dvs. verktyg för att installera program) för MacOS. Se: https://brew.sh.
+
+Exempel: sök program = `$ brew search discord` installera program `$ brew install discord`.
 
 ## Rättigheter (i filsystemet)
 
 Bra men svår guide om rättigheter: https://help.ubuntu.com/community/FilePermissions
 
-Todo:
+Kör i terminalen
 * filrättigheter (ls -l / chmod)
 * användare - grupper (chown / chgrp)
 * root - sudo 
