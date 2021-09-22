@@ -27,7 +27,7 @@ För djupare förståelse läs: https://tldp.org/LDP/sag/html/dir-tree-overview.
 ## Navigering, filer och mappar
 
 Läs: https://www.fosslinux.com/43292/linux-terminal-commands-to-try-for-a-beginner.htm 
-
+För att tydligare förstå och lära dig använda simpla kommandon i terminalen.
 
 ### mv
 Kommandot mv flyttar (eller byter namn) en fil eller map. Exempel: $ mv fil.txt ~/Desktop/fil.txt
