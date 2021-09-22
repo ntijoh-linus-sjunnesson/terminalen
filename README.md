@@ -22,7 +22,7 @@ En kortfattad beskrivning av Unix-filsystemet:
 /dev - enheter
 /home - alla användares hemmappar
 ```
-För djupare förståelse läs: https://tldp.org/LDP/sag/html/dir-tree-overview.html 
+För djupare förståelse om filsystemet, läs: https://tldp.org/LDP/sag/html/dir-tree-overview.html 
 
 ## Navigering, filer och mappar
 
