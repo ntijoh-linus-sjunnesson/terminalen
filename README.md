@@ -31,7 +31,7 @@ Läs: https://www.fosslinux.com/43292/linux-terminal-commands-to-try-for-a-begin
 För att tydligare förstå och lära dig använda simpla kommandon.
 
 ### mv
-Kommandot mv flyttar (eller byter namn) en fil eller map. Exempel: $ mv fil.txt ~/Desktop/fil.txt
+Kommandot mv flyttar (eller byter namn på) en fil eller map. Exempel: $ mv fil.txt ~/Desktop/fil.txt
 
 ## Todo
 * du
