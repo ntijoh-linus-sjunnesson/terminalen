@@ -115,7 +115,8 @@ Todo:
 
 ## Shell-scripts
 
-https://www.shellscript.sh/
+Läs: https://www.shellscript.sh/
+För att förstå grunderna i shell programmering.
 
 # Trams :)
 
