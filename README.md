@@ -28,16 +28,23 @@ För att tydligare förstå och lära dig använda simpla kommandon i terminalen
 
 ### Kommandon
 
-Testa i terminalen. Tips använd kommandot: man för att läsa manualsidan. tex ```man cd````.
+Testa i terminalen. Tips använd kommandot: man för att läsa \
+```man cd```.
 
-* cd: förflyttning genom mappar, används också för att gå till terminal start. Exempel: $ cd Desktop/  ~/Desktop 
-* mv: flyttar (eller byter namn) en fil eller map. Exempel: $ mv fil.txt ~/Desktop/fil.txt
+* cd: förflyttning genom mappar, används också för att gå till terminal start.\
+```$ cd Desktop/  ~/Desktop```
+* mv: flyttar (eller byter namn) en fil eller map.\
+```$ mv fil.txt ~/Desktop/fil.txt```
 * clear: rensar terminalen.
 * controll + c = lämna filer, commands eller databaser, används oftast när man sitter fast.
-* du: Räknar hur stor en fil eller mapp är
-* file: Kommandot tittar på en fil och försöker lista ut vilken sorts fil det är
-* find: Sök
-* wc: Word count
+* du: Räknar hur stor en fil eller mapp är\
+```du fil.txt```
+* file: Kommandot tittar på en fil och försöker lista ut vilken sorts fil det är.\
+```file fil.txt```
+* find: Går igenom alla filer i en specifik sökväg och går neråt i hierarkin, rekursivt.\
+```find /Desktop```
+* wc: Kan användas för att hämta ut mängden ord, rader eller bytes som finns i en textfil.\
+```wc fil.txt```
 
 Läs mer om dessa här
 * du: https://www.oreilly.com/library/view/macintosh-terminal-pocket/9781449328962/re31.html
